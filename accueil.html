@@ -1,1 +1,135 @@
+<!doctype html>
+<html lang="fr" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>eval-server-iso - Téléchargement d'ISO Serveur & Cloud Drive Integration</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	</head>
+	<body class="bg-slate-900 text-slate-100 font-sans min-h-screen flex flex-col justify-between">
+		<!-- Header / Navbar -->
+		<header class="border-b border-slate-800 bg-slate-950/50 backdrop-blur sticky top-0 z-50">
+			<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+				<div class="flex items-center space-x-3">
+					<div class="bg-indigo-600 text-white p-2 rounded-lg shadow-lg shadow-indigo-500/30">
+						<i class="fa-solid fa-server text-xl"></i>
+					</div>
+					<span class="font-bold text-xl tracking-wide text-white">eval-server-iso</span>
+				</div>
+				<nav class="hidden md:flex space-x-6 text-sm font-medium text-slate-400">
+					<a href="#features" class="hover:text-indigo-400 transition-colors">Fonctionnalités</a>
+					<a href="rules.html" class="hover:text-indigo-400 transition-colors">Confidentialité</a>
+					<a href="conditions.html" class="hover:text-indigo-400 transition-colors">Conditions d'utilisation</a>
+				</nav>
+				<div>
+					<a
+						href="mailto:mr.ahmed.elattar.pro@gmail.com"
+						class="text-xs bg-slate-800 hover:bg-slate-700 text-slate-300 py-2 px-4 rounded-full border border-slate-700 transition-colors">
+						Support
+					</a>
+				</div>
+			</div>
+		</header>
 
+		<!-- Main Content -->
+		<main class="flex-grow">
+			<!-- Hero Section -->
+			<section class="relative py-20 px-4 overflow-hidden">
+				<div class="absolute inset-0 bg-gradient-to-br from-indigo-900/20 via-slate-900 to-slate-950 -z-10"></div>
+				<div class="max-w-4xl mx-auto text-center space-y-6">
+					<span
+						class="inline-flex items-center gap-2 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+						<i class="fa-brands fa-google-drive"></i> Intégration Google Drive API
+					</span>
+					<h1 class="text-4xl sm:text-6xl font-extrabold text-white tracking-tight leading-tight">
+						Accès rapide aux images ISO
+						<span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 to-cyan-400"
+							>Windows Server & Systèmes</span
+						>
+					</h1>
+					<p class="text-lg text-slate-400 max-w-2xl mx-auto">
+						Une solution automatisée et sécurisée permettant la sélection, la liste et le téléchargement d'images
+						ISO d'évaluation directement hébergées sur votre Google Drive.
+					</p>
+					<div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center">
+						<a
+							href="rules.html"
+							class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium bg-indigo-600 hover:bg-indigo-500 text-white shadow-lg shadow-indigo-500/25 transition">
+							<i class="fa-solid fa-shield-halved mr-2"></i> Politique de Confidentialité
+						</a>
+						<a
+							href="conditions.html"
+							class="inline-flex items-center justify-center px-6 py-3 rounded-lg font-medium bg-slate-800 hover:bg-slate-700 text-slate-200 border border-slate-700 transition">
+							<i class="fa-solid fa-file-contract mr-2"></i> Conditions Générales
+						</a>
+					</div>
+				</div>
+			</section>
+
+			<!-- Features Grid -->
+			<section id="features" class="py-16 bg-slate-950/50 border-t border-b border-slate-800/80">
+				<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+					<div class="text-center mb-12">
+						<h2 class="text-2xl font-bold text-white">Pourquoi utiliser eval-server-iso ?</h2>
+						<p class="text-slate-400 text-sm mt-1">
+							Conçu pour simplifier le déploiement d'environnements de test et d'évaluation.
+						</p>
+					</div>
+					<div class="grid md:grid-cols-3 gap-8">
+						<div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-3">
+							<div class="text-indigo-400 text-2xl">
+								<i class="fa-solid fa-cloud-arrow-down"></i>
+							</div>
+							<h3 class="font-semibold text-lg text-white">Téléchargements direct Drive</h3>
+							<p class="text-slate-400 text-sm">
+								Accès direct aux images d'évaluation (Windows Server, distributions Linux)
+								synchronisées sur votre stockage cloud Google Drive.
+							</p>
+						</div>
+						<div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-3">
+							<div class="text-indigo-400 text-2xl">
+								<i class="fa-solid fa-lock"></i>
+							</div>
+							<h3 class="font-semibold text-lg text-white">Sécurité & Scope Restreint</h3>
+							<p class="text-slate-400 text-sm">
+								L'application demande uniquement les autorisations nécessaires à l'accès et à la
+								lecture des fichiers ISO désignés.
+							</p>
+						</div>
+						<div class="bg-slate-900 p-6 rounded-xl border border-slate-800 space-y-3">
+							<div class="text-indigo-400 text-2xl">
+								<i class="fa-solid fa-user-shield"></i>
+							</div>
+							<h3 class="font-semibold text-lg text-white">Aucun stockage tiers</h3>
+							<p class="text-slate-400 text-sm">
+								Vos identifiants et données personnelles ne sont jamais sauvegardés sur un serveur
+								externe ou revendus à des tiers.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="border-t border-slate-800 py-8 bg-slate-950 text-slate-500 text-xs">
+			<div class="max-w-7xl mx-auto px-4 flex flex-col md:flex-row items-center justify-between gap-4">
+				<div>
+					<p>&copy; 2026 eval-server-iso. Tous droits réservés.</p>
+					<p class="mt-1">
+						Contact Support :
+						<a href="mailto:mr.ahmed.elattar.pro@gmail.com" class="text-indigo-400 hover:underline"
+							>mr.ahmed.elattar.pro@gmail.com</a
+						>
+					</p>
+				</div>
+				<div class="flex space-x-6">
+					<a href="accueil.html" class="hover:text-slate-300">Accueil</a>
+					<a href="rules.html" class="hover:text-slate-300">Politique de Confidentialité</a>
+					<a href="conditions.html" class="hover:text-slate-300">Conditions d'Utilisation</a>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>

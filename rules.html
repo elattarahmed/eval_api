@@ -1,1 +1,122 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Politique de Confidentialité - eval-server-iso</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet" />
+	</head>
+	<body class="bg-slate-900 text-slate-200 font-sans min-h-screen flex flex-col justify-between">
+		<!-- Header -->
+		<header class="border-b border-slate-800 bg-slate-950/50 sticky top-0 z-50">
+			<div class="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
+				<a href="accueil.html" class="flex items-center space-x-3 text-white font-bold">
+					<i class="fa-solid fa-server text-indigo-500"></i>
+					<span>eval-server-iso</span>
+				</a>
+				<a href="accueil.html" class="text-xs text-slate-400 hover:text-white transition">&larr; Retour à l'accueil</a>
+			</div>
+		</header>
 
+		<!-- Main Document -->
+		<main class="max-w-4xl mx-auto px-4 py-12 flex-grow space-y-8">
+			<div class="border-b border-slate-800 pb-6">
+				<h1 class="text-3xl font-extrabold text-white">Politique de Confidentialité</h1>
+				<p class="text-slate-400 text-sm mt-2">Dernière mise à jour : 30 septembre 2026</p>
+			</div>
+
+			<section class="space-y-4 text-slate-300 text-sm leading-relaxed">
+				<h2 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+					<i class="fa-solid fa-circle-info"></i> 1. Introduction
+				</h2>
+				<p>
+					La présente Politique de Confidentialité décrit la manière dont l'application
+					<strong>eval-server-iso</strong> collecte, utilise et protège les informations des utilisateurs lors de
+					l'authentification et de l'accès aux services Google via les API OAuth 2.0.
+				</p>
+			</section>
+
+			<section class="space-y-4 text-slate-300 text-sm leading-relaxed">
+				<h2 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+					<i class="fa-brands fa-google text-lg"></i> 2. Utilisation de l'API Google Drive & Portées (Scopes)
+				</h2>
+				<p>
+					<strong>eval-server-iso</strong> interagit avec l'API Google Drive pour permettre le listing et le
+					téléchargement d'images ISO (par exemple, Windows Server ou autres systèmes d'exploitation) nécessaires à
+					l'installation d'environnements d'évaluation.
+				</p>
+				<div class="bg-slate-950 p-4 rounded-lg border border-slate-800 space-y-2">
+					<p class="font-semibold text-white">Données consultées :</p>
+					<ul class="list-disc list-inside space-y-1 text-slate-400">
+						<li>Métadonnées des fichiers ISO (nom du fichier, taille, identifiant unique).</li>
+						<li>
+							Flux de téléchargement des fichiers ISO sélectionnés directement depuis Google Drive vers
+							votre terminal.
+						</li>
+					</ul>
+				</div>
+				<p>
+					L'application n'accède qu'aux fichiers stricts nécessaires au fonctionnement de l'outil et n'altère ni ne
+					supprime aucun fichier personnel sur votre compte Google Drive.
+				</p>
+			</section>
+
+			<section class="space-y-4 text-slate-300 text-sm leading-relaxed">
+				<h2 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+					<i class="fa-solid fa-database"></i> 3. Stockage et Partage des Données
+				</h2>
+				<ul class="list-disc list-inside space-y-2 text-slate-300">
+					<li>
+						<strong>Stockage externe zéro :</strong> Aucune donnée personnelle, jeton d'accès permanent ou contenu
+						de votre Google Drive n'est enregistré sur des serveurs externes tiers.
+					</li>
+					<li>
+						<strong>Non-revente :</strong> Aucune donnée utilisateur n'est vendue, partagée ou transmise à des
+						tiers sous quelque prétexte que ce soit.
+					</li>
+					<li>
+						<strong>Conformité :</strong> L'utilisation des informations reçues des API Google respecte la
+						<a
+							href="https://developers.google.com/terms/api-services-user-data-policy"
+							target="_blank"
+							class="text-indigo-400 underline"
+							>Politique relative aux données des utilisateurs des services API Google</a
+						>, y compris les exigences d'utilisation limitée.
+					</li>
+				</ul>
+			</section>
+
+			<section class="space-y-4 text-slate-300 text-sm leading-relaxed">
+				<h2 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+					<i class="fa-solid fa-user-gear"></i> 4. Contrôle de l'utilisateur et Révocation
+				</h2>
+				<p>
+					Vous pouvez à tout moment révoquer l'accès de l'application <strong>eval-server-iso</strong> à votre compte
+					Google en vous rendant sur la page de sécurité de votre compte Google :
+					<a href="https://myaccount.google.com/permissions" target="_blank" class="text-indigo-400 underline"
+						>Gestion des autorisations Google</a
+					>.
+				</p>
+			</section>
+
+			<section class="space-y-4 text-slate-300 text-sm leading-relaxed">
+				<h2 class="text-xl font-bold text-indigo-400 flex items-center gap-2">
+					<i class="fa-solid fa-envelope"></i> 5. Contact
+				</h2>
+				<p>
+					Pour toute question concernant cette politique ou l'utilisation de vos données, vous pouvez nous contacter
+					directement à l'adresse suivante :
+				</p>
+				<div class="p-4 bg-slate-800/50 rounded-lg border border-slate-700 text-white font-mono text-xs inline-block">
+					mr.ahmed.elattar.pro@gmail.com
+				</div>
+			</section>
+		</main>
+
+		<!-- Footer -->
+		<footer class="border-t border-slate-800 py-6 bg-slate-950 text-slate-500 text-xs text-center">
+			<p>&copy; 2026 eval-server-iso. Tous droits réservés.</p>
+		</footer>
+	</body>
+</html>
